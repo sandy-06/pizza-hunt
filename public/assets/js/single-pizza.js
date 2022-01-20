@@ -174,8 +174,8 @@ function handleNewReplySubmit(event) {
     .catch(err => {
       console.log(err);
     });
+}
 
-  }
 $backBtn.addEventListener('click', function() {
   window.history.back();
 });
